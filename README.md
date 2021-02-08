@@ -15,6 +15,7 @@ Im Fundamentals-Kurs geht es vor allem um den geordneten Umgang mit Projektcode 
 3. Erstelle einen Branch und benenne ihn sinnvoll. Für den Anfang passt z. B. so etwas wie "Erste HTML-Tags"
 4. Starte den Django-Webserver indem du in einem Terminal im Verzeichnis *redi_project* das Kommando `python3 manage.py runserver` eingibst und die Enter-Taste drückst.
 5. Ruft im Browser die Seite http://localhost:8000/playground auf
+6. Den HTML-Code für die Seite findest du in der Datei *redi_project/playground/templates/playground/home.html*
 
 
 
