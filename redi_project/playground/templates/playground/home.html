@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Einstieg in HTML</title>
+    <title>{{ titel }}</title>
     {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'playground/style.css' %}">
 </head>
 <body>
-    <h1>Hallo HTML!</h1>
+    <h1>Ergebnis mit Ganzahlen: {{ ergebnis_zahlen }}</h1>
+    <h1>Ergebnis mit Kommazahlen: {{ ergebnis_kommazahlen }}</h1>
+    <h1>Unerwartetes Ergebnis 1: {{ seltsames_ergebnis1 }}</h1>
+    <h1>Unerwartetes Ergebnis 2: {{ seltsames_ergebnis2 }}</h1>
 </body>
 </html>
